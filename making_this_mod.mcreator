@@ -1,0 +1,257 @@
+{
+  "mod_elements": [
+    {
+      "name": "Woodenhilt",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenhilt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/WoodenhiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/woodenhilt.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodenblade",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/woodenblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/WoodenbladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Stonehilt",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonehilt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/StonehiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/stonehilt.json"
+        ]
+      }
+    },
+    {
+      "name": "Stoneblade",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/StonebladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/stoneblade.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironhilt",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhilt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/IronhiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/ironhilt.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironblade",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/IronbladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/ironblade.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppenhilt",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppenhilt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/coppenhilt.json",
+          "src/main/java/net/mcreator/makingthismod/item/CoppenhiltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copperblade",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/copperblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/CopperbladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/coppersword.json",
+          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Goldenhilt",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenhilt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/GoldenhiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/goldenhilt.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenblade",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/GoldenbladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/goldenblade.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondhilt",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondhilt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/diamondhilt.json",
+          "src/main/java/net/mcreator/makingthismod/item/DiamondhiltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Diamondblade",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/diamondblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/DiamondbladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Netheritehilt",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritehilt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/NetheritehiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/netheritehilt.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheriteblade",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/item/NetheritebladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/netheriteblade.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.making_this_mod.ironblade": "Ironblade",
+      "item.making_this_mod.stoneblade": "Stoneblade",
+      "item.making_this_mod.diamondhilt": "Diamondhilt",
+      "item.making_this_mod.coppersword": "Coppersword",
+      "item.making_this_mod.goldenblade": "Goldenblade",
+      "item.making_this_mod.goldenhilt": "Goldenhilt",
+      "item.making_this_mod.stonehilt": "Stonehilt",
+      "item.making_this_mod.ironhilt": "Ironhilt",
+      "item.making_this_mod.diamondblade": "Diamondblade",
+      "item.making_this_mod.copperblade": "Copperblade",
+      "item.making_this_mod.woodenhilt": "Woodenhilt",
+      "item.making_this_mod.woodenblade": "Woodenblade",
+      "item.making_this_mod.netheriteblade": "Netheriteblade",
+      "item.making_this_mod.netheritehilt": "Netheritehilt",
+      "item.making_this_mod.coppenhilt": "Coppenhilt"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "making_this_mod",
+    "modName": "Making this mod",
+    "version": "1.0.0",
+    "author": "alabo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.makingthismod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
