@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "iron_hilt",
+    "texture": "sculk_blade",
     "customModelName": "Normal",
-    "name": "Ironhilt",
-    "rarity": "COMMON",
+    "name": "Sculk Blade",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "COMBAT"
     },
