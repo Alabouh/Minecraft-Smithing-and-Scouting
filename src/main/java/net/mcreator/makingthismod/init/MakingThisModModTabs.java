@@ -41,6 +41,7 @@ public class MakingThisModModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(MakingThisModModItems.DIAMONDSHARD.get());
+			tabData.accept(MakingThisModModItems.MOLTEN_METAL_INGOT.get());
 		}
 	}
 }

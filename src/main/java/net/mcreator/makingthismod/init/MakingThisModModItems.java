@@ -20,6 +20,7 @@ import net.mcreator.makingthismod.item.SculkhiltItem;
 import net.mcreator.makingthismod.item.SculkbladeItem;
 import net.mcreator.makingthismod.item.NetheritehiltItem;
 import net.mcreator.makingthismod.item.NetheritebladeItem;
+import net.mcreator.makingthismod.item.MoltenMetalIngotItem;
 import net.mcreator.makingthismod.item.IronhiltItem;
 import net.mcreator.makingthismod.item.IronbladeItem;
 import net.mcreator.makingthismod.item.GoldenhiltItem;
@@ -53,6 +54,7 @@ public class MakingThisModModItems {
 	public static final RegistryObject<Item> SCULKBLADE = REGISTRY.register("sculkblade", () -> new SculkbladeItem());
 	public static final RegistryObject<Item> DIAMONDSHARD = REGISTRY.register("diamondshard", () -> new DiamondshardItem());
 	public static final RegistryObject<Item> CRUSHER = block(MakingThisModModBlocks.CRUSHER);
+	public static final RegistryObject<Item> MOLTEN_METAL_INGOT = REGISTRY.register("molten_metal_ingot", () -> new MoltenMetalIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -301,6 +301,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "MoltenMetalIngot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_metal_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/molten_metal_ingot.json",
+          "src/main/java/net/mcreator/makingthismod/item/MoltenMetalIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MetalSmelting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/making_this_mod/recipes/metal_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -318,6 +345,7 @@
       "item.making_this_mod.stonehilt": "Stone Hilt",
       "item.making_this_mod.ironhilt": "Iron Hilt",
       "item.making_this_mod.diamondblade": "Diamond Blade",
+      "item.making_this_mod.molten_metal_ingot": "Molten Metal Ingot",
       "item.making_this_mod.copperblade": "Copper Blade",
       "item.making_this_mod.woodenhilt": "Wooden Hilt",
       "gui.making_this_mod.crusher_gui.button_crush": "Crush",
