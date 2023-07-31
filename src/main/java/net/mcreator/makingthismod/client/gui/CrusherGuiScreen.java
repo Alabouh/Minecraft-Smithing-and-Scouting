@@ -70,7 +70,7 @@ public class CrusherGuiScreen extends AbstractContainerScreen<CrusherGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.making_this_mod.crusher_gui.label_crusher"), 69, 4, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.making_this_mod.crusher_gui.label_crusher"), 69, 7, -12829636);
 	}
 
 	@Override

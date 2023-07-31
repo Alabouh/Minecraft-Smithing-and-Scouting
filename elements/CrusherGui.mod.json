@@ -44,7 +44,7 @@
         "type": "button",
         "data": {
           "name": "button_crush",
-          "text": "crush",
+          "text": "Crush",
           "onClick": {
             "name": "CrusherCrush"
           },
@@ -66,7 +66,7 @@
             "falpha": 0.0
           },
           "x": 195,
-          "y": 41
+          "y": 44
         }
       }
     ],
