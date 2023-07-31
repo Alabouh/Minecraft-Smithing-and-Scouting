@@ -9,8 +9,8 @@
       "registry_name": "woodenhilt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/WoodenhiltItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/woodenhilt.json"
+          "src/main/resources/assets/making_this_mod/models/item/woodenhilt.json",
+          "src/main/java/net/mcreator/makingthismod/item/WoodenhiltItem.java"
         ]
       }
     },
@@ -23,8 +23,8 @@
       "registry_name": "woodenblade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/woodenblade.json",
-          "src/main/java/net/mcreator/makingthismod/item/WoodenbladeItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/WoodenbladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/woodenblade.json"
         ]
       }
     },
@@ -37,8 +37,8 @@
       "registry_name": "stonehilt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/StonehiltItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/stonehilt.json"
+          "src/main/resources/assets/making_this_mod/models/item/stonehilt.json",
+          "src/main/java/net/mcreator/makingthismod/item/StonehiltItem.java"
         ]
       }
     },
@@ -79,8 +79,8 @@
       "registry_name": "ironblade",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/IronbladeItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/ironblade.json"
+          "src/main/resources/assets/making_this_mod/models/item/ironblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/IronbladeItem.java"
         ]
       }
     },
@@ -121,8 +121,8 @@
       "registry_name": "coppersword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/coppersword.json",
-          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/coppersword.json"
         ]
       }
     },
@@ -177,8 +177,8 @@
       "registry_name": "diamondblade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/diamondblade.json",
-          "src/main/java/net/mcreator/makingthismod/item/DiamondbladeItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/DiamondbladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/diamondblade.json"
         ]
       }
     },
@@ -191,8 +191,8 @@
       "registry_name": "netheritehilt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/NetheritehiltItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/netheritehilt.json"
+          "src/main/resources/assets/making_this_mod/models/item/netheritehilt.json",
+          "src/main/java/net/mcreator/makingthismod/item/NetheritehiltItem.java"
         ]
       }
     },
@@ -205,8 +205,8 @@
       "registry_name": "netheriteblade",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/NetheritebladeItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/netheriteblade.json"
+          "src/main/resources/assets/making_this_mod/models/item/netheriteblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/NetheritebladeItem.java"
         ]
       }
     },
@@ -267,31 +267,67 @@
           "src/main/resources/assets/making_this_mod/blockstates/crusher.json"
         ]
       }
+    },
+    {
+      "name": "CrusherGui",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/world/inventory/CrusherGuiMenu.java",
+          "src/main/java/net/mcreator/makingthismod/network/CrusherGuiButtonMessage.java",
+          "src/main/java/net/mcreator/makingthismod/client/gui/CrusherGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CrusherCrush",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_crush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/procedures/CrusherCrushProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.making_this_mod.ironblade": "Ironblade",
-      "item.making_this_mod.diamondshard": "Diamondshard",
-      "item.making_this_mod.stoneblade": "Stoneblade",
-      "item.making_this_mod.diamondhilt": "Diamondhilt",
-      "item.making_this_mod.coppersword": "Coppersword",
-      "item.making_this_mod.goldenblade": "Goldenblade",
-      "item.making_this_mod.goldenhilt": "Goldenhilt",
-      "item.making_this_mod.stonehilt": "Stonehilt",
-      "item.making_this_mod.ironhilt": "Ironhilt",
-      "item.making_this_mod.diamondblade": "Diamondblade",
-      "item.making_this_mod.copperblade": "Copperblade",
-      "item.making_this_mod.woodenhilt": "Woodenhilt",
-      "item.making_this_mod.woodenblade": "Woodenblade",
-      "item.making_this_mod.sculkhilt": "Sculk hilt",
+      "item.making_this_mod.ironblade": "Iron Blade",
+      "item.making_this_mod.diamondshard": "Diamond Shard",
+      "item.making_this_mod.stoneblade": "Stone Blade",
+      "item.making_this_mod.diamondhilt": "Diamond Hilt",
+      "item.making_this_mod.coppersword": "Copper Sword",
+      "item.making_this_mod.goldenblade": "Golden Blade",
+      "item.making_this_mod.goldenhilt": "Golden Hilt",
+      "gui.making_this_mod.crusher_gui.label_crusher": "Crusher",
+      "item.making_this_mod.stonehilt": "Stone Hilt",
+      "item.making_this_mod.ironhilt": "Iron Hilt",
+      "item.making_this_mod.diamondblade": "Diamond Blade",
+      "item.making_this_mod.copperblade": "Copper Blade",
+      "item.making_this_mod.woodenhilt": "Wooden Hilt",
+      "gui.making_this_mod.crusher_gui.button_crush": "crush",
+      "item.making_this_mod.woodenblade": "Wooden Blade",
+      "item.making_this_mod.sculkhilt": "Sculk Hilt",
       "item.making_this_mod.sculkblade": "Sculk Blade",
-      "item.making_this_mod.netheriteblade": "Netheriteblade",
+      "item.making_this_mod.netheriteblade": "Netherite Blade",
       "block.making_this_mod.crusher": "Crusher",
-      "item.making_this_mod.netheritehilt": "Netheritehilt",
-      "item.making_this_mod.coppenhilt": "Coppenhilt"
+      "item.making_this_mod.netheritehilt": "Netherite Hilt",
+      "item.making_this_mod.coppenhilt": "Copper Hilt"
     }
   },
   "foldersRoot": {
