@@ -17,6 +17,7 @@ public class MakingThisModModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MakingThisModModBlocks.CRUSHER.get().asItem());
+			tabData.accept(MakingThisModModBlocks.CASTER.get().asItem());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {

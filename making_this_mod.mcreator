@@ -354,6 +354,56 @@
           "src/main/resources/data/making_this_mod/recipes/copper_smelting.json"
         ]
       }
+    },
+    {
+      "name": "CasterGui",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caster_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/world/inventory/CasterGuiMenu.java",
+          "src/main/java/net/mcreator/makingthismod/network/CasterGuiButtonMessage.java",
+          "src/main/java/net/mcreator/makingthismod/client/gui/CasterGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CasterCast",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caster_cast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/procedures/CasterCastProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Caster",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/caster.json",
+          "src/main/resources/assets/making_this_mod/blockstates/caster.json",
+          "src/main/resources/assets/making_this_mod/models/block/caster.json",
+          "src/main/java/net/mcreator/makingthismod/block/CasterBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -361,27 +411,27 @@
   "language_map": {
     "en_us": {
       "item.making_this_mod.ironblade": "Iron Blade",
-      "item.making_this_mod.diamondshard": "Diamond Shard",
-      "item.making_this_mod.stoneblade": "Stone Blade",
       "item.making_this_mod.diamondhilt": "Diamond Hilt",
       "item.making_this_mod.coppersword": "Copper Sword",
       "item.making_this_mod.goldenblade": "Golden Blade",
-      "item.making_this_mod.goldenhilt": "Golden Hilt",
       "gui.making_this_mod.crusher_gui.label_crusher": "Crusher",
       "item.making_this_mod.stonehilt": "Stone Hilt",
-      "item.making_this_mod.ironhilt": "Iron Hilt",
       "item.making_this_mod.diamondblade": "Diamond Blade",
-      "item.making_this_mod.molten_metal_ingot": "Molten Metal Ingot",
       "item.making_this_mod.copperblade": "Copper Blade",
       "item.making_this_mod.woodenhilt": "Wooden Hilt",
-      "gui.making_this_mod.crusher_gui.button_crush": "Crush",
       "item.making_this_mod.woodenblade": "Wooden Blade",
-      "item.making_this_mod.sculkhilt": "Sculk Hilt",
-      "item.making_this_mod.sculkblade": "Sculk Blade",
       "item.making_this_mod.netheriteblade": "Netherite Blade",
       "block.making_this_mod.crusher": "Crusher",
       "item.making_this_mod.netheritehilt": "Netherite Hilt",
-      "item.making_this_mod.coppenhilt": "Copper Hilt"
+      "item.making_this_mod.coppenhilt": "Copper Hilt",
+      "item.making_this_mod.diamondshard": "Diamond Shard",
+      "item.making_this_mod.stoneblade": "Stone Blade",
+      "item.making_this_mod.goldenhilt": "Golden Hilt",
+      "item.making_this_mod.ironhilt": "Iron Hilt",
+      "item.making_this_mod.molten_metal_ingot": "Molten Metal Ingot",
+      "gui.making_this_mod.crusher_gui.button_crush": "Crush",
+      "item.making_this_mod.sculkhilt": "Sculk Hilt",
+      "item.making_this_mod.sculkblade": "Sculk Blade"
     }
   },
   "foldersRoot": {

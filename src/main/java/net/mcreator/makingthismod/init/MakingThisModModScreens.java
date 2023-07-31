@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.makingthismod.client.gui.CrusherGuiScreen;
+import net.mcreator.makingthismod.client.gui.CasterGuiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MakingThisModModScreens {
@@ -19,6 +20,7 @@ public class MakingThisModModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(MakingThisModModMenus.CRUSHER_GUI.get(), CrusherGuiScreen::new);
+			MenuScreens.register(MakingThisModModMenus.CASTER_GUI.get(), CasterGuiScreen::new);
 		});
 	}
 }
