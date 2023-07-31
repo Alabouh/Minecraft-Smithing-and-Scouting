@@ -51,6 +51,16 @@ public class CasterGuiScreen extends AbstractContainerScreen<CasterGuiMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("making_this_mod:textures/screens/empty_slot_molten_metal_ingot.png"));
+		this.blit(ms, this.leftPos + 43, this.topPos + 35, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("making_this_mod:textures/screens/empty_slot_ingot.png"));
+		this.blit(ms, this.leftPos + 65, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("making_this_mod:textures/screens/empty_slot_stick.png"));
+		this.blit(ms, this.leftPos + 21, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+
 		RenderSystem.disableBlend();
 	}
 
