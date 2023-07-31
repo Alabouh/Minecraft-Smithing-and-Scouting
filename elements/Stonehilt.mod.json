@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "stone_hilt",
     "customModelName": "Normal",
-    "name": "Stonehilt",
+    "name": "Stone Hilt",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "COMBAT"
