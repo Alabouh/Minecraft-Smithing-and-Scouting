@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.makingthismod.init.MakingThisModModMenus;
 import net.mcreator.makingthismod.init.MakingThisModModItems;
 import net.mcreator.makingthismod.init.MakingThisModModBlocks;
 
@@ -52,6 +53,8 @@ public class MakingThisModMod {
 
 		MakingThisModModBlocks.REGISTRY.register(bus);
 		MakingThisModModItems.REGISTRY.register(bus);
+
+		MakingThisModModMenus.REGISTRY.register(bus);
 
 	}
 
