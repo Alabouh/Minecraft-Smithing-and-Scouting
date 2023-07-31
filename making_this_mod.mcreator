@@ -262,9 +262,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/makingthismod/block/CrusherBlock.java",
+          "src/main/resources/assets/making_this_mod/models/block/crusher.json",
           "src/main/resources/assets/making_this_mod/models/item/crusher.json",
-          "src/main/resources/assets/making_this_mod/blockstates/crusher.json",
-          "src/main/resources/assets/making_this_mod/models/block/crusher.json"
+          "src/main/resources/assets/making_this_mod/blockstates/crusher.json"
         ]
       }
     }
