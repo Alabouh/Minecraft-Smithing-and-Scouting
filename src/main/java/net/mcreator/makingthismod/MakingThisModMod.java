@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.makingthismod.init.MakingThisModModItems;
+import net.mcreator.makingthismod.init.MakingThisModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,7 @@ public class MakingThisModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		MakingThisModModBlocks.REGISTRY.register(bus);
 		MakingThisModModItems.REGISTRY.register(bus);
 
 	}

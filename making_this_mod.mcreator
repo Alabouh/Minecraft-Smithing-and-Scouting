@@ -251,6 +251,22 @@
           "src/main/java/net/mcreator/makingthismod/item/DiamondshardItem.java"
         ]
       }
+    },
+    {
+      "name": "Crusher",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/block/CrusherBlock.java",
+          "src/main/resources/assets/making_this_mod/models/item/crusher.json",
+          "src/main/resources/assets/making_this_mod/blockstates/crusher.json",
+          "src/main/resources/assets/making_this_mod/models/block/crusher.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -273,6 +289,7 @@
       "item.making_this_mod.sculkhilt": "Sculk hilt",
       "item.making_this_mod.sculkblade": "Sculk Blade",
       "item.making_this_mod.netheriteblade": "Netheriteblade",
+      "block.making_this_mod.crusher": "Crusher",
       "item.making_this_mod.netheritehilt": "Netheritehilt",
       "item.making_this_mod.coppenhilt": "Coppenhilt"
     }

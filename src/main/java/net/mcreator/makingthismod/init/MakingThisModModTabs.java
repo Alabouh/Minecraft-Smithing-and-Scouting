@@ -15,6 +15,10 @@ public class MakingThisModModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
+		if (tabData.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(MakingThisModModBlocks.CRUSHER.get().asItem());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MakingThisModModItems.WOODENBLADE.get());
 			tabData.accept(MakingThisModModItems.WOODENHILT.get());

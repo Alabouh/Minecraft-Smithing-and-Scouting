@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.makingthismod.item.WoodenhiltItem;
 import net.mcreator.makingthismod.item.WoodenbladeItem;
@@ -50,4 +52,9 @@ public class MakingThisModModItems {
 	public static final RegistryObject<Item> SCULKHILT = REGISTRY.register("sculkhilt", () -> new SculkhiltItem());
 	public static final RegistryObject<Item> SCULKBLADE = REGISTRY.register("sculkblade", () -> new SculkbladeItem());
 	public static final RegistryObject<Item> DIAMONDSHARD = REGISTRY.register("diamondshard", () -> new DiamondshardItem());
+	public static final RegistryObject<Item> CRUSHER = block(MakingThisModModBlocks.CRUSHER);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }
