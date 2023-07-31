@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "making_this_mod:stoneblade"
+    },
+    {
+      "item": "making_this_mod:stonehilt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone_sword",
+    "count": 1
+  }
+}

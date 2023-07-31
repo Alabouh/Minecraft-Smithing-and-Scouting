@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "making_this_mod:woodenblade"
+    },
+    {
+      "item": "making_this_mod:woodenhilt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1
+  }
+}

@@ -262,9 +262,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/makingthismod/block/CrusherBlock.java",
-          "src/main/resources/assets/making_this_mod/models/block/crusher.json",
           "src/main/resources/assets/making_this_mod/models/item/crusher.json",
-          "src/main/resources/assets/making_this_mod/blockstates/crusher.json"
+          "src/main/resources/assets/making_this_mod/blockstates/crusher.json",
+          "src/main/resources/assets/making_this_mod/models/block/crusher.json"
         ]
       }
     },
@@ -277,9 +277,9 @@
       "registry_name": "crusher_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/makingthismod/world/inventory/CrusherGuiMenu.java",
           "src/main/java/net/mcreator/makingthismod/network/CrusherGuiButtonMessage.java",
-          "src/main/java/net/mcreator/makingthismod/client/gui/CrusherGuiScreen.java",
-          "src/main/java/net/mcreator/makingthismod/world/inventory/CrusherGuiMenu.java"
+          "src/main/java/net/mcreator/makingthismod/client/gui/CrusherGuiScreen.java"
         ]
       }
     },
@@ -291,6 +291,9 @@
       "locked_code": false,
       "registry_name": "crusher_crush",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/makingthismod/procedures/CrusherCrushProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -349,9 +352,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/making_this_mod/models/item/caster.json",
-          "src/main/java/net/mcreator/makingthismod/block/CasterBlock.java",
+          "src/main/resources/assets/making_this_mod/blockstates/caster.json",
           "src/main/resources/assets/making_this_mod/models/block/caster.json",
-          "src/main/resources/assets/making_this_mod/blockstates/caster.json"
+          "src/main/java/net/mcreator/makingthismod/block/CasterBlock.java"
         ]
       }
     },
@@ -401,6 +404,71 @@
           "src/main/resources/data/making_this_mod/recipes/copper_smelting.json"
         ]
       }
+    },
+    {
+      "name": "CopperSwordRec",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/making_this_mod/recipes/copper_sword_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldswordRec",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldsword_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/golden_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "IronSwordRec",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sword_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/iron_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Stoneswordrec",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneswordrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/stone_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenSwordrec",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_swordrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/wooden_sword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -412,8 +480,8 @@
       "item.making_this_mod.coppersword": "Copper Sword",
       "item.making_this_mod.goldenblade": "Golden Blade",
       "gui.making_this_mod.crusher_gui.label_crusher": "Crusher",
-      "item.making_this_mod.diamondblade": "Diamond Blade",
       "item.making_this_mod.stonehilt": "Stone Hilt",
+      "item.making_this_mod.diamondblade": "Diamond Blade",
       "item.making_this_mod.copperblade": "Copper Blade",
       "item.making_this_mod.woodenhilt": "Wooden Hilt",
       "gui.making_this_mod.caster_gui.button_cast": "Cast",
