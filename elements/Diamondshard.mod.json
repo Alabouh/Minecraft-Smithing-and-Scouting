@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_hilt",
+    "texture": "diamondshard",
     "customModelName": "Normal",
-    "name": "Coppenhilt",
+    "name": "Diamondshard",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "MATERIALS"
     },
     "stackSize": 64,
     "enchantability": 0,

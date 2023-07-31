@@ -34,5 +34,9 @@ public class MakingThisModModTabs {
 			tabData.accept(MakingThisModModItems.SCULKHILT.get());
 			tabData.accept(MakingThisModModItems.SCULKBLADE.get());
 		}
+
+		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(MakingThisModModItems.DIAMONDSHARD.get());
+		}
 	}
 }

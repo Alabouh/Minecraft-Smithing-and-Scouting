@@ -9,8 +9,8 @@
       "registry_name": "woodenhilt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/woodenhilt.json",
-          "src/main/java/net/mcreator/makingthismod/item/WoodenhiltItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/WoodenhiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/woodenhilt.json"
         ]
       }
     },
@@ -23,8 +23,8 @@
       "registry_name": "woodenblade",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/WoodenbladeItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/woodenblade.json"
+          "src/main/resources/assets/making_this_mod/models/item/woodenblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/WoodenbladeItem.java"
         ]
       }
     },
@@ -37,8 +37,8 @@
       "registry_name": "stonehilt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/stonehilt.json",
-          "src/main/java/net/mcreator/makingthismod/item/StonehiltItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/StonehiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/stonehilt.json"
         ]
       }
     },
@@ -79,8 +79,8 @@
       "registry_name": "ironblade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/ironblade.json",
-          "src/main/java/net/mcreator/makingthismod/item/IronbladeItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/IronbladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/ironblade.json"
         ]
       }
     },
@@ -121,8 +121,8 @@
       "registry_name": "coppersword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/coppersword.json"
+          "src/main/resources/assets/making_this_mod/models/item/coppersword.json",
+          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java"
         ]
       }
     },
@@ -177,8 +177,8 @@
       "registry_name": "diamondblade",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/DiamondbladeItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/diamondblade.json"
+          "src/main/resources/assets/making_this_mod/models/item/diamondblade.json",
+          "src/main/java/net/mcreator/makingthismod/item/DiamondbladeItem.java"
         ]
       }
     },
@@ -191,8 +191,8 @@
       "registry_name": "netheritehilt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/netheritehilt.json",
-          "src/main/java/net/mcreator/makingthismod/item/NetheritehiltItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/NetheritehiltItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/netheritehilt.json"
         ]
       }
     },
@@ -205,8 +205,8 @@
       "registry_name": "netheriteblade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/item/netheriteblade.json",
-          "src/main/java/net/mcreator/makingthismod/item/NetheritebladeItem.java"
+          "src/main/java/net/mcreator/makingthismod/item/NetheritebladeItem.java",
+          "src/main/resources/assets/making_this_mod/models/item/netheriteblade.json"
         ]
       }
     },
@@ -237,6 +237,20 @@
           "src/main/resources/assets/making_this_mod/models/item/sculkblade.json"
         ]
       }
+    },
+    {
+      "name": "Diamondshard",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondshard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/item/diamondshard.json",
+          "src/main/java/net/mcreator/makingthismod/item/DiamondshardItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -244,6 +258,7 @@
   "language_map": {
     "en_us": {
       "item.making_this_mod.ironblade": "Ironblade",
+      "item.making_this_mod.diamondshard": "Diamondshard",
       "item.making_this_mod.stoneblade": "Stoneblade",
       "item.making_this_mod.diamondhilt": "Diamondhilt",
       "item.making_this_mod.coppersword": "Coppersword",

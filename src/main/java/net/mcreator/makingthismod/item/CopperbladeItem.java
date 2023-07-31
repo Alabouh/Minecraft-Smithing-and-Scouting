@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class CopperbladeItem extends Item {
 	public CopperbladeItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 }
