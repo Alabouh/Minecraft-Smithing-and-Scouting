@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "making_this_mod:block/piston_bottom",
+    "up": "making_this_mod:block/caster_top",
+    "north": "making_this_mod:block/piston_bottom",
+    "east": "making_this_mod:block/piston_bottom",
+    "south": "making_this_mod:block/piston_bottom",
+    "west": "making_this_mod:block/piston_bottom",
+    "particle": "making_this_mod:block/piston_bottom"
+  },
+  "render_type": "solid"
+}

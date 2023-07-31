@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "making_this_mod:crusher"
+    "making_this_mod:crusher",
+    "making_this_mod:caster"
   ]
 }

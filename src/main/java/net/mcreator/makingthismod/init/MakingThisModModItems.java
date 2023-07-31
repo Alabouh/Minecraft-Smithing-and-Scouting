@@ -55,6 +55,7 @@ public class MakingThisModModItems {
 	public static final RegistryObject<Item> DIAMONDSHARD = REGISTRY.register("diamondshard", () -> new DiamondshardItem());
 	public static final RegistryObject<Item> CRUSHER = block(MakingThisModModBlocks.CRUSHER);
 	public static final RegistryObject<Item> MOLTEN_METAL_INGOT = REGISTRY.register("molten_metal_ingot", () -> new MoltenMetalIngotItem());
+	public static final RegistryObject<Item> CASTER = block(MakingThisModModBlocks.CASTER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
