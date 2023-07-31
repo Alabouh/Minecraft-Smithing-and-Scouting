@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "making_this_mod:block/packed_ice",
+    "up": "making_this_mod:block/snow",
+    "north": "making_this_mod:block/snowypackedice",
+    "east": "making_this_mod:block/snowypackedice",
+    "south": "making_this_mod:block/snowypackedice",
+    "west": "making_this_mod:block/snowypackedice",
+    "particle": "making_this_mod:block/packed_ice"
+  },
+  "render_type": "solid"
+}

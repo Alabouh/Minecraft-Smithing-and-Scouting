@@ -495,6 +495,22 @@
           "src/main/resources/data/minecraft/recipes/netherite_sword.json"
         ]
       }
+    },
+    {
+      "name": "SnowyPackedIce",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_packed_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/making_this_mod/models/block/snowy_packed_ice.json",
+          "src/main/resources/assets/making_this_mod/models/item/snowy_packed_ice.json",
+          "src/main/resources/assets/making_this_mod/blockstates/snowy_packed_ice.json",
+          "src/main/java/net/mcreator/makingthismod/block/SnowyPackedIceBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -525,6 +541,7 @@
       "gui.making_this_mod.caster_gui.label_caster": "Caster",
       "gui.making_this_mod.crusher_gui.button_crush": "Crush",
       "item.making_this_mod.sculkhilt": "Sculk Hilt",
+      "block.making_this_mod.snowy_packed_ice": "Snowy Packed Ice",
       "item.making_this_mod.sculkblade": "Sculk Blade"
     }
   },

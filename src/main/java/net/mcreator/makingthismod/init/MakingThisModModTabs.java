@@ -44,5 +44,9 @@ public class MakingThisModModTabs {
 			tabData.accept(MakingThisModModItems.DIAMONDSHARD.get());
 			tabData.accept(MakingThisModModItems.MOLTEN_METAL_INGOT.get());
 		}
+
+		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(MakingThisModModBlocks.SNOWY_PACKED_ICE.get().asItem());
+		}
 	}
 }
