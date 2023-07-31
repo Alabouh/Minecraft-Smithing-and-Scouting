@@ -14,6 +14,7 @@ import net.mcreator.makingthismod.item.WoodenhiltItem;
 import net.mcreator.makingthismod.item.WoodenbladeItem;
 import net.mcreator.makingthismod.item.StonehiltItem;
 import net.mcreator.makingthismod.item.StonebladeItem;
+import net.mcreator.makingthismod.item.SculkhiltItem;
 import net.mcreator.makingthismod.item.NetheritehiltItem;
 import net.mcreator.makingthismod.item.NetheritebladeItem;
 import net.mcreator.makingthismod.item.IronhiltItem;
@@ -44,4 +45,5 @@ public class MakingThisModModItems {
 	public static final RegistryObject<Item> DIAMONDBLADE = REGISTRY.register("diamondblade", () -> new DiamondbladeItem());
 	public static final RegistryObject<Item> NETHERITEHILT = REGISTRY.register("netheritehilt", () -> new NetheritehiltItem());
 	public static final RegistryObject<Item> NETHERITEBLADE = REGISTRY.register("netheriteblade", () -> new NetheritebladeItem());
+	public static final RegistryObject<Item> SCULKHILT = REGISTRY.register("sculkhilt", () -> new SculkhiltItem());
 }
