@@ -121,8 +121,8 @@
       "registry_name": "coppersword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java",
-          "src/main/resources/assets/making_this_mod/models/item/coppersword.json"
+          "src/main/resources/assets/making_this_mod/models/item/coppersword.json",
+          "src/main/java/net/mcreator/makingthismod/item/CopperswordItem.java"
         ]
       }
     },
@@ -505,8 +505,8 @@
       "registry_name": "snowy_packed_ice",
       "metadata": {
         "files": [
-          "src/main/resources/assets/making_this_mod/models/block/snowy_packed_ice.json",
           "src/main/resources/assets/making_this_mod/models/item/snowy_packed_ice.json",
+          "src/main/resources/assets/making_this_mod/models/block/snowy_packed_ice.json",
           "src/main/resources/assets/making_this_mod/blockstates/snowy_packed_ice.json",
           "src/main/java/net/mcreator/makingthismod/block/SnowyPackedIceBlock.java"
         ]
@@ -522,8 +522,8 @@
       "item.making_this_mod.coppersword": "Copper Sword",
       "item.making_this_mod.goldenblade": "Golden Blade",
       "gui.making_this_mod.crusher_gui.label_crusher": "Crusher",
-      "item.making_this_mod.diamondblade": "Diamond Blade",
       "item.making_this_mod.stonehilt": "Stone Hilt",
+      "item.making_this_mod.diamondblade": "Diamond Blade",
       "item.making_this_mod.copperblade": "Copper Blade",
       "item.making_this_mod.woodenhilt": "Wooden Hilt",
       "gui.making_this_mod.caster_gui.button_cast": "Cast",

@@ -13,7 +13,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class CopperswordItem extends Item {
 	public CopperswordItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(180).rarity(Rarity.COMMON));
 	}
 
 	@Override
