@@ -41,7 +41,7 @@ public class CrusherCrushProcedure {
 							}
 							return 0;
 						}
-					}.getAmount(1) + 3));
+					}.getAmount(1) + 2));
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
