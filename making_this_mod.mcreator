@@ -328,6 +328,19 @@
           "src/main/resources/data/making_this_mod/recipes/metal_smelting.json"
         ]
       }
+    },
+    {
+      "name": "GoldSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/making_this_mod/recipes/gold_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
