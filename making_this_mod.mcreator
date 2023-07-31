@@ -388,6 +388,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "CopperSmelting",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/making_this_mod/recipes/copper_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

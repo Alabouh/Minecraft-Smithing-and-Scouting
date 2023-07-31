@@ -1,27 +1,13 @@
 package net.mcreator.makingthismod.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-
-import net.mcreator.makingthismod.world.inventory.CasterGuiMenu;
-import net.mcreator.makingthismod.network.CasterGuiButtonMessage;
-import net.mcreator.makingthismod.MakingThisModMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class CasterGuiScreen extends AbstractContainerScreen<CasterGuiMenu> {
+
 	private final static HashMap<String, Object> guistate = CasterGuiMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	Button button_cast;
 
 	public CasterGuiScreen(CasterGuiMenu container, Inventory inventory, Component text) {
@@ -42,6 +28,7 @@ public class CasterGuiScreen extends AbstractContainerScreen<CasterGuiMenu> {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -49,8 +36,10 @@ public class CasterGuiScreen extends AbstractContainerScreen<CasterGuiMenu> {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -60,6 +49,7 @@ public class CasterGuiScreen extends AbstractContainerScreen<CasterGuiMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -81,13 +71,17 @@ public class CasterGuiScreen extends AbstractContainerScreen<CasterGuiMenu> {
 	@Override
 	public void init() {
 		super.init();
+
 		button_cast = Button.builder(Component.translatable("gui.making_this_mod.caster_gui.button_cast"), e -> {
 			if (true) {
 				MakingThisModMod.PACKET_HANDLER.sendToServer(new CasterGuiButtonMessage(0, x, y, z));
 				CasterGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 61, this.topPos + 59, 46, 20).build();
+
 		guistate.put("button:button_cast", button_cast);
 		this.addRenderableWidget(button_cast);
+
 	}
+
 }
