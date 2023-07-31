@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "making_this_mod:netheriteblade"
+    },
+    {
+      "item": "making_this_mod:netheritehilt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "making_this_mod:diamondblade"
+    },
+    {
+      "item": "making_this_mod:diamondhilt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_sword",
+    "count": 1
+  }
+}

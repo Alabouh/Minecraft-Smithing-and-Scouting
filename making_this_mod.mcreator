@@ -469,6 +469,32 @@
           "src/main/resources/data/minecraft/recipes/wooden_sword.json"
         ]
       }
+    },
+    {
+      "name": "DiamondSwordRec",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_sword_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/diamond_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSwordRec",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_sword_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/netherite_sword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -480,8 +506,8 @@
       "item.making_this_mod.coppersword": "Copper Sword",
       "item.making_this_mod.goldenblade": "Golden Blade",
       "gui.making_this_mod.crusher_gui.label_crusher": "Crusher",
-      "item.making_this_mod.stonehilt": "Stone Hilt",
       "item.making_this_mod.diamondblade": "Diamond Blade",
+      "item.making_this_mod.stonehilt": "Stone Hilt",
       "item.making_this_mod.copperblade": "Copper Blade",
       "item.making_this_mod.woodenhilt": "Wooden Hilt",
       "gui.making_this_mod.caster_gui.button_cast": "Cast",
