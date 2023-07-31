@@ -31,6 +31,7 @@ public class MakingThisModModTabs {
 			tabData.accept(MakingThisModModItems.DIAMONDBLADE.get());
 			tabData.accept(MakingThisModModItems.NETHERITEHILT.get());
 			tabData.accept(MakingThisModModItems.NETHERITEBLADE.get());
+			tabData.accept(MakingThisModModItems.SCULKHILT.get());
 			tabData.accept(MakingThisModModItems.SCULKBLADE.get());
 		}
 	}
