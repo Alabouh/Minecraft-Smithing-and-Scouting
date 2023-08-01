@@ -19,6 +19,11 @@ public class CopperswordItem extends Item {
 	}
 
 	@Override
+	public int getEnchantmentValue() {
+		return 14;
+	}
+
+	@Override
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 		return 1.5F;
 	}
