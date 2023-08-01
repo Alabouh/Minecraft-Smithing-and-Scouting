@@ -57,7 +57,6 @@ public class MakingThisModModItems {
 	public static final RegistryObject<Item> MOLTEN_METAL_INGOT = REGISTRY.register("molten_metal_ingot", () -> new MoltenMetalIngotItem());
 	public static final RegistryObject<Item> CASTER = block(MakingThisModModBlocks.CASTER);
 	public static final RegistryObject<Item> SNOWY_PACKED_ICE = block(MakingThisModModBlocks.SNOWY_PACKED_ICE);
-	public static final RegistryObject<Item> ICE_SPIKES = block(MakingThisModModBlocks.ICE_SPIKES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
