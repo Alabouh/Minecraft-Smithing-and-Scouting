@@ -1,0 +1,9 @@
+{
+  "parent": "making_this_mod:custom/icespikes",
+  "textures": {
+    "all": "making_this_mod:block/icespikes",
+    "particle": "making_this_mod:block/icespikes",
+    "0": "making_this_mod:block/icespikes"
+  },
+  "render_type": "cutout"
+}
