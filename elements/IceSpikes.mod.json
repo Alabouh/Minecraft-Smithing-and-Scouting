@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -118,25 +118,31 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
+    "restrictionBiomes": [
       {
-        "value": "Blocks.STONE#0"
+        "value": "snowy_slopes"
       },
       {
-        "value": "Blocks.STONE#1"
+        "value": "snowy_mountains"
       },
       {
-        "value": "Blocks.STONE#3"
+        "value": "snowy_tundra"
       },
       {
-        "value": "Blocks.STONE#5"
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "mutated_taiga_cold"
       }
     ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 500
   }
 }

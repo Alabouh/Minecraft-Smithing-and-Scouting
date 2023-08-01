@@ -5,5 +5,5 @@
     "particle": "making_this_mod:block/icespikes",
     "0": "making_this_mod:block/icespikes"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
