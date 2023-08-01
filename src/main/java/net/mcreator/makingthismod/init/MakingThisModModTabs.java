@@ -47,6 +47,7 @@ public class MakingThisModModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MakingThisModModBlocks.SNOWY_PACKED_ICE.get().asItem());
+			tabData.accept(MakingThisModModBlocks.ICE_SPIKES.get().asItem());
 		}
 	}
 }

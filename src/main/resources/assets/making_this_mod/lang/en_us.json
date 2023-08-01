@@ -4,8 +4,8 @@
   "item.making_this_mod.coppersword": "Copper Sword",
   "item.making_this_mod.goldenblade": "Golden Blade",
   "gui.making_this_mod.crusher_gui.label_crusher": "Crusher",
-  "item.making_this_mod.diamondblade": "Diamond Blade",
   "item.making_this_mod.stonehilt": "Stone Hilt",
+  "item.making_this_mod.diamondblade": "Diamond Blade",
   "item.making_this_mod.copperblade": "Copper Blade",
   "item.making_this_mod.woodenhilt": "Wooden Hilt",
   "gui.making_this_mod.caster_gui.button_cast": "Cast",
@@ -24,5 +24,6 @@
   "gui.making_this_mod.crusher_gui.button_crush": "Crush",
   "item.making_this_mod.sculkhilt": "Sculk Hilt",
   "block.making_this_mod.snowy_packed_ice": "Snowy Packed Ice",
+  "block.making_this_mod.ice_spikes": "Ice Spikes",
   "item.making_this_mod.sculkblade": "Sculk Blade"
 }
